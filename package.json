@@ -1,0 +1,22 @@
+{
+  "name": "coordy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:blakekjohnson/coordy",
+  "author": "Blake Johnson <blake.k.johnson.4@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "dependencies": {
+    "core-js": "^3.27.1",
+    "dotenv": "^16.0.3",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
